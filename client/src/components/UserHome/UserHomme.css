@@ -1,0 +1,9 @@
+* {
+  margin: 0px !important ;
+  padding: 0px !important;
+}
+.user-home {
+  height: 100%;
+  width: 100%;
+  background-color: #c8e4b2;
+}

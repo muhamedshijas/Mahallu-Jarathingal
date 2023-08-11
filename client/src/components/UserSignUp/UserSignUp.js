@@ -28,8 +28,8 @@ function UserSignUp() {
             <MDBBtn>Sent Otp</MDBBtn>
             </div>
             <div className="login-signup">
-            <p>Have any trouble during login </p>
-            <Link to='/signup'>SignUp Here</Link>
+            <p>al ready have an account </p>
+            <Link to='/login'>Login Here</Link>
             </div>
         </div>
         <div className="login-image">
