@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import login from '../../assets/images/login.png'
+import logo from '../../assets/images/logo.png'
 import '../UserLogin/UserLogin.css'
 import {
   MDBBtn,
@@ -21,7 +22,7 @@ function UserSignUp() {
     <div className='user-login'>
     <div className="login-section">
         <div className="login-form">
-            <h2>Jarathingal Mahallu</h2>
+        <h2> <img src={logo}/> Jarathingal Mahallu</h2>
             <div class="form-outline">
             <MDBInput wrapperClass='mb-4' label='Phone No' id='formControlLg' type='tel' size="lg"  />
            
